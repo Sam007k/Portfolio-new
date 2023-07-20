@@ -17,7 +17,7 @@ export default function App() {
   return (
     <div className="App">
       <TopBar menuOpen={menuOpen} hamburgerHandler={handleHamburger} />
-      <Menu />
+      <Menu menuOpen={menuOpen} hamburgerHandler={handleHamburger} />
       <div className="sections">
         <Intro />
         <Portfolio />

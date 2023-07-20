@@ -18,6 +18,7 @@
     background-color: lightsalmon;
     scroll-snap-type: y mandatory;
     scrollbar-width: none;
+    overflow: auto;
     &::-webkit-scrollbar{
       display: none;
     }
