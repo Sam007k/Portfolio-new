@@ -1,6 +1,7 @@
 import "./topBar.scss";
 import {Person, Mail} from '@material-ui/icons'
 
+<<<<<<< HEAD
 export default function TopBar(props) {
  
   return <div className={props.menuOpen ? `topbar active` : 'topbar'}  id='topbar'>
@@ -23,6 +24,15 @@ export default function TopBar(props) {
           <span className='line3'></span>
         </div>
       </div>
+=======
+export default function TopBar() {
+  return <div className="topbar" id='topbar'>
+    <div className='wrapper'>
+      <div className='left'>
+        <a href='#intro'> asdasd</a>
+      </div>
+      <div className='right'></div>
+>>>>>>> 6fa81c980fb57e83b077a5ced0e1a17980e79b3f
 
     </div>
   </div>;
