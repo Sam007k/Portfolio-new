@@ -7,13 +7,13 @@ export default function TopBar(props) {
     <div className='wrapper'>
       <div className='left'>
         <a href='#intro' className='logo'>S.</a>
-        <div className='itemContainer'>
+        {/* <div className='itemContainer'>
           <Person className='icon'/>
           <span>+44 924 92 22</span>
-        </div>
+        </div> */}
         <div className='itemContainer'>
           <Mail className='icon'/>
-          <span>safak@genius.com</span>
+          <span>msameer007k@gmail.com</span>
         </div>
       </div>
       <div className='right'>

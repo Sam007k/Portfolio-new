@@ -10,12 +10,12 @@ export default function Menu(props) {
         <li  onClick={props.hamburgerHandler}>
           <a href="#portfolio">Portfolio</a>
         </li>
-        <li onClick={props.hamburgerHandler}>
+        {/* <li onClick={props.hamburgerHandler}>
           <a href="#works">Works</a>
         </li>
         <li onClick={props.hamburgerHandler}>
           <a href="#testimonials">Testimonials</a>
-        </li>
+        </li> */}
         <li onClick={props.hamburgerHandler}>
           <a href="#contact">Contact</a>
         </li>
