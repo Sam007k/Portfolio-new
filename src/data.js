@@ -58,7 +58,7 @@ export const webPortfolio = [
     title: "Meal Finder",
     img: "https://code-projects.org/wp-content/uploads/2022/02/mf-min.png",
     link: "https://meal-finderl.netlify.app/",
-    text: "(React,Redux,Css,)",
+    text: "(Html,Sass,Js)",
   },
   {
     id: 3,
